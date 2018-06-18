@@ -6,6 +6,11 @@ A concurrent linked list problem solution using explicit locks.
 
 A linked list it is a data structure consisting of a group of nodes which together represent a sequence. Under the simplest form, each node is composed of data and a reference (in other words, a link) to the next node in the sequence. In this context, this data structure can perform the operations of insertion, remove and search of elements in the list. Thus, to perform concurrently it is necessary that these operations do not interfere in the behavior of the others, so that one can maintain correctness in the functions.
 
+### Prerequisites
+
+You will need to install the modules below to run the program: 
+* [java 8.0 or greater](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
 ### Running
 
 There are two ways to run this software:
